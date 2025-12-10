@@ -4,7 +4,7 @@ export default function Login() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center px-8">
   <div className="w-full max-w-sm flex flex-col items-center gap-6">
 
     <img src={logo} alt="FukuBank" className="w-32 h-32 object-contain" />

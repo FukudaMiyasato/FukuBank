@@ -32,15 +32,15 @@ useEffect(() => {
   {/* CONTENIDO ENCIMA DEL HEADER */}
     <div className="relative z-30 w-full flex justify-center flex flex-col items-center">
       {/* CABECERA */}
-      <div className="text-xl w-[80%] font-bold h-[40vh] relative">
-        <div className="absolute bottom-0 left-0 p-2 text-5xl text-white">
-          HOLA, <br/><span className="text-7xl">JUANCHO</span>
+      <div className="text-xl w-[80%] font-bold h-[30vh] relative">
+        <div className="absolute bottom-0 left-0 p-2 text-3xl text-white">
+          HOLA, <br/><span className="text-5xl">JUANCHO</span>
         </div>
       </div>
         <div className="w-[80%] bg-white/10 backdrop-blur-md rounded-xl p-4">
          {/* SALDO DISPONIBLE */}
           <div class="w-full bg-[#9B7AE0] rounded-3xl px-6 py-6 flex items-center justify-between">
-            <span class="text-black text-xl font-semibold">Saldo disponible</span>
+            <span class="text-black font-semibold">Saldo disponible</span>
 
             <div class="bg-white px-6 py-2 rounded-2xl text-[#9B7AE0] text-xl font-bold">
               s/95
